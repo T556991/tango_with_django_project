@@ -36,9 +36,9 @@ def populate():
          'url':'http://flask.pocoo.org',
          'views': 32} ]
     
-    cats = {'Python': {'pages': python_pages, 'views': 123, 'likes': 54},
-            'Django': {'pages': django_pages, 'views': 68, 'likes': 687},
-            'Other Frameworks': {'pages': other_pages, 'views': 688, 'likes': 312} }
+    cats = {'Python': {'pages': python_pages, 'views': 128, 'likes': 64},
+            'Django': {'pages': django_pages, 'views': 64, 'likes': 32},
+            'Other Frameworks': {'pages': other_pages, 'views': 32, 'likes': 16} }
     
     for cat, cat_data in cats.items():
         c = add_cat(cat, views=cat_data['views'], likes=cat_data['likes'])
